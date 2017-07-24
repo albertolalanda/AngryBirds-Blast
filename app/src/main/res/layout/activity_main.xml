@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context="pt.ipleiria.estg.ei.p2.blast.MainActivity">
+
+    <view
+        android:id="@+id/gridInfo"
+        class="pt.ipleiria.estg.dei.gridcomponent.GridComponent"
+        layout_width="match_parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <view
+        android:id="@+id/gridAreaJogavel"
+        class="pt.ipleiria.estg.dei.gridcomponent.GridComponent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:showGridLines="true"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp" />
+
+</LinearLayout>

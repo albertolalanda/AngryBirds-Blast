@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AB Blast</string>
+
+    <string name="title_activity_result">Resultado</string>
+    <string name="btnNaoText">Não</string>
+    <string name="btnSimText">Sim</string>
+    <string name="txtJogarNovamenteText">Quer jogar novamente?</string>
+    <string name="txtConcluidoSucessoText">Parabéns! \nConcluiu o objetivo do jogo.</string>
+    <string name="txtGameOverText">Game Over!</string>
+</resources>
